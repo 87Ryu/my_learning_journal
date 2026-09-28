@@ -1,62 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>My Learning Journal</title>
-        <link rel="stylesheet" href="css/style.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Learning Journal</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header class="site-header">
-            <h1>My learning journal</h1>
-        </header>
-        <main>
-            <a href="" class="image_main">
-                <article>
-                    <img src="./images/image_main.png" alt="A laptop and a desk light in front of a window"/>
-                    <header>
-                        <h3>JULY 23, 2022</h3>
-                    </header>
+        <!-- Navigation -->
+        <nav>
+            <div class="nav-container">
+                <a href="index.html" class="logo">
+                    <img src="images/logo.png" alt="logo">
+                    My learning journal
+                </a>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT ME</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <p class="date">JULY 23, 2022</p>
+                <h1>My new journey as a bootcamp student.</h1>
+                <p>After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects and meet like-minded peers.</p>
+            </div>
+        </section>
+
+        <!-- Blog Posts Grid -->
+        <main class="container">
+            <div class="posts-grid">
+                <article class="post-card">
+                    <img src="images/blog1.png" alt="Blog one">
+                    <p class="date">JULY 23, 2022</p>
+                    <h2><a href="post.html">Blog one</a></h2>
+                    <p>I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
                 </article>
-            </a>
-            <a href="./index.html" class="blog_1">
-                <article>
-                    <img src="./images/blog1.png" alt="A laptop with code one screen next to a plant"/>
+                <article class="post-card">
+                    <img src="images/blog2.png" alt="Blog two">
+                    <p class="date">JULY 23, 2022</p>
+                    <h2><a href="post.html">Blog two</a></h2>
+                    <p>I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
                 </article>
-            </a>
-            <a href="./index.html" class="blog_2">
-                <article>
-                    <img src="./images/blog2.png" alt="A hand holding a light bulb"/>
+                <article class="post-card">
+                    <img src="images/blog3.png" alt="Blog three">
+                    <p class="date">JULY 23, 2022</p>
+                    <h2><a href="post.html">Blog three</a></h2>
+                    <p>I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
                 </article>
-            </a>
-            <a href="./index.html" class="blog_3">
-                <article>
-                    <img src="./images/blog3.png" alt="An abstract painting with a variation of pink and purple colors"/>
+                <article class="post-card">
+                    <img src="images/blog4.png" alt="Blog four">
+                    <p class="date">JULY 23, 2022</p>
+                    <h2><a href="post.html">Blog four</a></h2>
+                    <p>I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
                 </article>
-            </a>
-            <a href="./index.html" class="blog_4">
-                <article>
-                    <img src="./images/blog4.png" alt="A women twirling on the beach"/>
+                <article class="post-card">
+                    <img src="images/blog5.png" alt="Blog five">
+                    <p class="date">JULY 23, 2022</p>
+                    <h2><a href="post.html">Blog five</a></h2>
+                    <p>I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
                 </article>
-            </a>
-            <a href="./index.html" class="blog_5">
-                <article>
-                    <img src="./images/blog5.png" alt="A picture of react code on a laptop"/>
+                <article class="post-card">
+                    <img src="images/blog6.png" alt="Blog six">
+                    <p class="date">JULY 23, 2022</p>
+                    <h2><a href="post.html">Blog six</a></h2>
+                    <p>I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
                 </article>
-            </a>
-            <a href="./index.html" class="blog_6">
-                <article>
-                    <img src="./images/blog6.png" alt="A laptop on a table at a restoraunt"/> 
-                </article>
-            </a>
+            </div>
+            <a href="#" class="view-more">View More</a>
         </main>
+
+        <!-- Footer -->
         <footer>
-            <p>
-                My Learning Journal
-            </p>
-            <p>
-                Copyright©2022
-            </p>
+            <p><strong>My Learning Journal</strong></p>
+            <p>Copyright ©2022</p>
         </footer>
     </body>
 </html>

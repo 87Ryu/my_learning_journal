@@ -31,10 +31,12 @@ nav {
     text-decoration: none;
     color: #404040;
     font-weight: 700;
+    font-size: 1rem;
 }
 
 .logo img {
-    width: 32px;
+    width: 2rem;
+    height: 2rem;
 }
 
 nav ul {
@@ -161,6 +163,69 @@ h2 {
     text-align: center;
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
+}
+
+/* ===== ABOUT PAGE ===== */
+.about-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+/* ===== PROFILE SECTION ===== */
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;  /* ✅ circular image */
+    object-fit: cover;
+    flex-shrink: 0;      /* ✅ prevents image from shrinking */
+}
+
+.profile-text h1 {
+    font-size: 1.75rem;
+    margin-bottom: 0.75rem;
+}
+
+/* ===== ABOUT CONTENT ===== */
+.about-content {
+    margin-bottom: 3rem;
+}
+
+.about-content h2 {
+    font-size: 1.125rem;
+    margin: 1.5rem 0 0.5rem;
+}
+
+.about-content p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+/* ===== RECENT POSTS ===== */
+.recent-posts h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 600px) {
+    .profile {
+        flex-direction: column;  /* ✅ stack on mobile */
+        text-align: center;
+    }
+    
+    .avatar {
+        width: 120px;
+        height: 120px;
+    }
 }
 
 /* ===== FOOTER ===== */

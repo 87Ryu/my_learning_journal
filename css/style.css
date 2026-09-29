@@ -59,7 +59,7 @@ nav ul a:hover {
 
 /* ===== HERO ===== */
 .hero {
-    background: url('images/hero.png') center/cover no-repeat;
+    background: url('../images/hero.png') center/cover no-repeat;
     min-height: 450px;
     display: flex;
     align-items: flex-end;
